@@ -35,7 +35,7 @@ resource "aws_lambda_function" "hello_lambda" {
 
   environment {
     variables = {
-      foo = "bar"
+      LAMBDA_NAME = "${var.function_name}"
     }
   }
 }
