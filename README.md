@@ -9,8 +9,9 @@ It's a prototype for the serverless portion of [mynagerie](https://github.com/an
 ## To Do
 
 * Generalize Docker module to allow multiple `Dockerfile` options.
+* Update Lambda without destroying everything (maybe).
 * Add more refined / customizable execution policy.
-* Create Lambda exdcution URL.
+* Create Lambda execution URL.
 
 ## Update Log
 

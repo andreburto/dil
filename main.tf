@@ -25,6 +25,7 @@ module "docker" {
 // Creates the Lambda function. Has to come last so it can reference the "latest" image in the ECR.
 module "lambda" {
   source = "./modules/aws/lambda"
+  aws_region = var.aws_region
   function_name = "${var.repo_name}_lambda"
   repository_url = module.ecr.repository_url
 
