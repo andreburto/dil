@@ -11,13 +11,13 @@ It's a prototype for the serverless portion of [mynagerie](https://github.com/an
 * Generalize Docker module to allow multiple `Dockerfile` options.
 * Update Lambda without destroying everything (maybe).
 * Add more refined / customizable execution policy.
-* Create Lambda execution URL.
 
 ## Update Log
 
 **2022-09-11:** Added Lambda portion of the process.
 Successfully went from nothing to a working Lambda.
 Created this Github project and the README.
+Added Lambda execution URL.
 
 **2022-08-29:** Started working on the project.
 Got as far as creating the ECR, building the image, and pushing that up to said ECR.
