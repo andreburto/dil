@@ -27,8 +27,8 @@ resource "aws_iam_role" "iam_for_lambda" {
 EOF
 }
 
-resource "aws_lambda_function" "hello_lambda" {
-  function_name = "${var.function_name}"
+resource "aws_lambda_function" "docker_lambda" {
+  function_name = var.function_name
   role = aws_iam_role.iam_for_lambda.arn
   package_type = "Image"
   image_uri = "${var.repository_url}:latest"

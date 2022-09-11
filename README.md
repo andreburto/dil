@@ -1,4 +1,4 @@
-# Docker Image Lambda, aba Dil
+# Docker Image Lambda, aka Dil
 
 ## About
 
@@ -8,6 +8,7 @@ It's a prototype for the serverless portion of [mynagerie](https://github.com/an
 
 ## To Do
 
+* Generalize Docker module to allow multiple `Dockerfile` options.
 * Add more refined / customizable execution policy.
 * Create Lambda exdcution URL.
 
